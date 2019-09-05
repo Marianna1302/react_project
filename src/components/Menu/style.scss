@@ -1,0 +1,18 @@
+#menu {
+    display: flex;
+    a {
+        padding: 10px 15px;
+        color: #fff;
+        display: block;
+        font-size: 26px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        &.active {
+            color: red;
+        }
+    }
+}
+
+li {
+    list-style: none;
+}
